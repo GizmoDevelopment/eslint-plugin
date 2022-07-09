@@ -1,11 +1,12 @@
 {
-	"extends": [
-		"./rules/javascript.js"
-	],
+	"root": true,
 	"env": {
 		"node": true
 	},
 	"parserOptions": {
 		"ecmaVersion": 2019
-	}
+	},
+	"extends": [
+		"./rules/javascript.js"
+	]
 }
