@@ -68,6 +68,7 @@ module.exports = {
 				"order": "alphabetically"
 			}
 		}],
+		"@typescript-eslint/no-unused-vars": [ "error" ],
 
 		// Typing rules
 		"@typescript-eslint/consistent-type-imports": [ "error" ],
