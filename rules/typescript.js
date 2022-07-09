@@ -1,14 +1,19 @@
+// Rules
+const javascript = require("./javascript");
+
 module.exports = {
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
-		"./javascript.js"
 	],
 	"plugins": [
 		"@typescript-eslint"
 	],
 	"rules": {
+
+		// Since ESLint is a bitch with relative paths
+		...javascript.rules,
 
 		// Disabled rules
 		"eol-last": "off",
