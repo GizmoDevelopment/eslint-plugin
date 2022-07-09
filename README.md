@@ -4,19 +4,25 @@
 npm i -D @gizmo-dev/eslint-plugin-gizmo
 ```
 
-# Importing
+# Importing in ESLint
 
 ### JavaScript
-```
-@gizmo-dev/eslint-plugin-gizmo/javascript
+```json
+"extends": [
+	"plugin:@gizmo-dev/javascript"
+]
 ```
 
 ### TypeScript
-```
-@gizmo-dev/eslint-plugin-gizmo/typescript
+```json
+"extends": [
+	"plugin:@gizmo-dev/typescript"
+]
 ```
 
 ### Vue
-```
-@gizmo-dev/eslint-plugin-gizmo/vue
+```json
+"extends": [
+	"plugin:@gizmo-dev/vue"
+]
 ```
