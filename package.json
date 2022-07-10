@@ -20,6 +20,10 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "eslint": "8.x"
+    "eslint": "8.x",
+	"@typescript-eslint/eslint-plugin": "5.x",
+    "@typescript-eslint/parser": "5.x",
+	"eslint-plugin-vue": "8.x",
+	"vue-eslint-parser": "8.x"
   }
 }
