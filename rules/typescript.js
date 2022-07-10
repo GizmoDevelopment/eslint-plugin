@@ -16,8 +16,6 @@ module.exports = {
 		...javascript.rules,
 
 		// Disabled rules
-		"eol-last": "off",
-		"no-tabs": "off",
 		"indent": "off",
 		"semi": "off",
 		"quotes": "off",
