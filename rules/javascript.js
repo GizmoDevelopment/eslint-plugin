@@ -7,6 +7,7 @@ module.exports = {
 		// Disabled rules
 		"eol-last": "off",
 		"no-tabs": "off",
+		"one-var": "off",
 
 		// Enforced rules
 		"quotes": [ "error" ],
@@ -31,7 +32,6 @@ module.exports = {
 			"objectsInArrays": false,
 			"arraysInArrays": false
 		}],
-		"one-var": [ "error", "always" ],
 
 	}
 };
