@@ -20,7 +20,7 @@ npm i -D @gizmo-dev/eslint-plugin-gizmo
 ]
 ```
 
-### Vue
+### Vue 3
 ```json
 "extends": [
 	"plugin:@gizmo-dev/vue"
