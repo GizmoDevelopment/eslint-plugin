@@ -13,17 +13,19 @@
     "url": "https://github.com/GizmoDevelopment/eslint-plugin/issues"
   },
   "publishConfig": {
-	"access": "public"
+    "access": "public"
   },
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
   },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint-plugin-vue": "^9.2.0",
+    "vue-eslint-parser": "^9.0.3"
+  },
   "peerDependencies": {
-    "eslint": "8.x",
-	"@typescript-eslint/eslint-plugin": "5.x",
-    "@typescript-eslint/parser": "5.x",
-	"eslint-plugin-vue": "8.x",
-	"vue-eslint-parser": "8.x"
+    "eslint": "8.x"
   }
 }
