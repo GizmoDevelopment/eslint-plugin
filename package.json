@@ -1,7 +1,7 @@
 {
   "name": "@gizmo-dev/eslint-plugin",
   "description": "ESLint rulesets for Gizmo projects.",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "author": "Tjaz (GizmoTjaz)",
   "license": "MIT",
   "homepage": "https://github.com/GizmoDevelopment/eslint-plugin#readme",
