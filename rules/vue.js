@@ -14,7 +14,7 @@ module.exports = {
 		"vue/html-indent": [ "error", "tab" ],
 		"vue/singleline-html-element-content-newline": "off",
 		"vue/max-attributes-per-line": [ "error", {
-			"singleline": 2
+			"singleline": 3
 		}],
 		"vue/script-setup-uses-vars": "off",
 		"vue/eqeqeq": [ "error", "always" ],
