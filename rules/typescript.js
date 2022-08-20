@@ -24,6 +24,7 @@ module.exports = {
 		"space-before-function-paren": "off",
 		"padded-blocks": "off",
 		"no-unused-vars": "off",
+		"no-redeclare": "off",
 
 		// TSLint replacement rules
 		"@typescript-eslint/indent": [ "error", "tab", {
@@ -34,6 +35,7 @@ module.exports = {
 		"@typescript-eslint/quotes": [ "error" ],
 		"@typescript-eslint/space-infix-ops": [ "error" ],
 		"@typescript-eslint/space-before-function-paren": [ "error" ],
+		"@typescript-eslint/no-redeclare": [ "error" ],
 
 		// Enforced rules
 		"@typescript-eslint/naming-convention": [ "error",
