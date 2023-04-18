@@ -16,6 +16,9 @@
     "access": "public"
   },
   "packageManager": "pnpm@8.3.0",
+  "engines": {
+    "node": ">=16"
+  },
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
