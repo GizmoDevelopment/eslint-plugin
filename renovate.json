@@ -7,5 +7,11 @@
 	"schedule": [
 		"before 10:00 AM"
 	],
-	"rangeStrategy": "bump"
+	"rangeStrategy": "bump",
+	"packageRules": [
+		{
+			"matchDepTypes": ["devDependencies"],
+			"automerge": true
+		}
+	]
 }
