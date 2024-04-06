@@ -5,9 +5,8 @@ import ts from "typescript-eslint";
 // Local Rules
 import jsLocal from "./javascript.js";
 
-export default [
+export default ts.config(
 	js.configs.recommended,
-	...ts.configs.eslintRecommended,
 	...ts.configs.recommended,
 	{
 		rules: {
@@ -91,4 +90,4 @@ export default [
 	
 		}
 	}
-];
+);
