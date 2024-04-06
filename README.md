@@ -1,28 +1,36 @@
 # Installation
 
 ```
-npm i -D @gizmo-dev/eslint-plugin-gizmo
+npm i -D @gizmo-dev/eslint-plugin
+```
+And in your ESLint config file, import the module:
+```js
+import { configs } from "@gizmo-dev/eslint-plugin";
 ```
 
-# Importing in ESLint
+
+# Importing specific configs
 
 ### JavaScript
-```json
-"extends": [
-	"plugin:@gizmo-dev/javascript"
-]
+```js
+export default [
+	...configs.js,
+	// The rest of your config
+];
 ```
 
 ### TypeScript
-```json
-"extends": [
-	"plugin:@gizmo-dev/typescript"
-]
+```js
+export default [
+	...configs.ts,
+	// The rest of your config
+];
 ```
 
 ### Vue 3
-```json
-"extends": [
-	"plugin:@gizmo-dev/vue"
-]
+```js
+export default [
+	...configs.vue,
+	// The rest of your config
+];
 ```
