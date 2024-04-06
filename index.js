@@ -1,12 +1,12 @@
-// Rules
-const javascript = require("./rules/javascript");
-const typescript = require("./rules/typescript");
-const vue = require("./rules/vue");
+// Local Rules
+import js from "./rules/javascript.js";
+import ts from "./rules/typescript.js";
+import vue from "./rules/vue.js";
 
-module.exports = {
+export default {
 	configs: {
-		javascript,
-		typescript,
+		js,
+		ts,
 		vue
 	}
 };

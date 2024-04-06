@@ -4,6 +4,7 @@
   "version": "3.3.8",
   "author": "Tjaz (GizmoTjaz)",
   "license": "MIT",
+  "type": "module",
   "homepage": "https://github.com/GizmoDevelopment/eslint-plugin#readme",
   "repository": {
     "type": "git",
@@ -24,10 +25,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.5.0",
-    "@typescript-eslint/parser": "^7.5.0",
     "eslint-plugin-vue": "^9.24.0",
-    "vue-eslint-parser": "^9.4.2"
+    "globals": "^15.0.0",
+    "typescript-eslint": "^7.5.0"
   },
   "peerDependencies": {
     "eslint": "9.x"
