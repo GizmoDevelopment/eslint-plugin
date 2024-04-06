@@ -25,11 +25,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "eslint-plugin-vue": "^9.24.0",
-    "globals": "^15.0.0",
-    "typescript-eslint": "^7.5.0"
+    "globals": "^15.0.0"
   },
   "peerDependencies": {
-    "eslint": "9.x"
+    "eslint": "9.x",
+    "eslint-plugin-vue": ">=9.24.x",
+    "typescript-eslint": ">=7.5.x"
   }
 }
