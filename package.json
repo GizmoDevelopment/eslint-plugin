@@ -30,6 +30,6 @@
     "vue-eslint-parser": "^9.4.2"
   },
   "peerDependencies": {
-    "eslint": "8.x"
+    "eslint": "9.x"
   }
 }
