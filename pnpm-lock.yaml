@@ -12,7 +12,7 @@ importers:
         specifier: 9.x
         version: 9.0.0
       eslint-plugin-vue:
-        specifier: '>=9.24.x'
+        specifier: '>=9.25.0'
         version: 9.25.0(eslint@9.0.0)
       globals:
         specifier: ^15.0.0
