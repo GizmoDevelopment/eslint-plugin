@@ -28,7 +28,7 @@
     "globals": "^15.0.0"
   },
   "peerDependencies": {
-    "eslint": "9.x",
+    "eslint": "9.2.0",
     "eslint-plugin-vue": ">=9.25.0",
     "typescript-eslint": ">=7.5.x"
   }
