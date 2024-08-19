@@ -30,6 +30,6 @@
   "peerDependencies": {
     "eslint": "9.x",
     "eslint-plugin-vue": ">=9.25.0",
-    "typescript-eslint": ">=7.5.x"
+    "typescript-eslint": ">=8.2.0"
   }
 }
