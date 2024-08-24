@@ -1,5 +1,6 @@
 // Rules
 const vue = require("eslint-plugin-vue");
+const ts = require("typescript-eslint");
 
 module.exports = [
 	...vue.configs["flat/recommended"],
@@ -31,8 +32,7 @@ module.exports = [
 		files: [ "*.vue", "**/*.vue" ],
 		languageOptions: {
 			parserOptions: {
-				parser: "@typescript-eslint/parser",
-				projectService: true,
+				parser: ts.parser,
 				extraFileExtensions: [ ".vue" ]
 			}
 		},
