@@ -1,11 +1,11 @@
 // Rules
-import js from "@eslint/js";
-import ts from "typescript-eslint";
+const js = require("@eslint/js");
+const ts = require("typescript-eslint");
 
 // Local Rules
-import jsLocal from "./javascript.js";
+const jsLocal = require("./javascript.js");
 
-export default ts.config(
+module.exports = ts.config(
 	js.configs.recommended,
 	...ts.configs.recommended,
 	{

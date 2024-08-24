@@ -1,7 +1,7 @@
 // Rules
-import js from "@eslint/js";
+const js = require("@eslint/js");
 
-export default [
+module.exports = [
 	js.configs.recommended,
 	{
 		rules: {

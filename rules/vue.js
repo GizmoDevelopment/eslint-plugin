@@ -1,7 +1,7 @@
 // Rules
-import vue from "eslint-plugin-vue";
+const vue = require("eslint-plugin-vue");
 
-export default [
+module.exports = [
 	...vue.configs["flat/essential"],
 	{
 		rules: {

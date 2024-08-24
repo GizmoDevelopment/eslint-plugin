@@ -4,7 +4,6 @@
   "version": "4.0.0",
   "author": "Tjaz (GizmoTjaz)",
   "license": "MIT",
-  "type": "module",
   "homepage": "https://github.com/GizmoDevelopment/eslint-plugin#readme",
   "repository": {
     "type": "git",

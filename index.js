@@ -1,9 +1,9 @@
 // Local Rules
-import js from "./rules/javascript.js";
-import ts from "./rules/typescript.js";
-import vue from "./rules/vue.js";
+const js = require("./rules/javascript.js");
+const ts = require("./rules/typescript.js");
+const vue = require("./rules/vue.js");
 
-export const configs = {
+module.exports.configs = {
 	js,
 	ts,
 	vue
