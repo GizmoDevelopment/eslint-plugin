@@ -25,7 +25,7 @@ module.exports = [
 			"vue/no-child-content": [ "error" ],
 			"vue/no-expose-after-await": [ "error" ],
 			"vue/component-options-name-casing": [ "error", "PascalCase" ]
-		},
+		}
 	},
 	{
 		files: [ "*.vue", "**/*.vue" ],
