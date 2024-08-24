@@ -28,9 +28,16 @@ module.exports = [
 		},
 	},
 	{
-		files: [ "*.vue" ],
+		files: [ "*.vue", "**/*.vue" ],
+		languageOptions: {
+			parserOptions: {
+				parser: "@typescript-eslint/parser",
+				projectService: true,
+				extraFileExtensions: [ ".vue" ]
+			}
+		},
 		rules: {
-			"indent": "off",
+			"@stylistic/indent": "off",
 			"@typescript-eslint/indent": "off"
 		}
 	}
