@@ -26,14 +26,12 @@ module.exports = [
 			"vue/no-expose-after-await": [ "error" ],
 			"vue/component-options-name-casing": [ "error", "PascalCase" ]
 		},
-		overrides: [
-			{
-				"files": [ "*.vue" ],
-				"rules": {
-					"indent": "off",
-					"@typescript-eslint/indent": "off"
-				}
-			}
-		]
+	},
+	{
+		files: [ "*.vue" ],
+		rules: {
+			"indent": "off",
+			"@typescript-eslint/indent": "off"
+		}
 	}
 ];
