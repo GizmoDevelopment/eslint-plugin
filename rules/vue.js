@@ -2,7 +2,7 @@
 const vue = require("eslint-plugin-vue");
 
 module.exports = [
-	...vue.configs["flat/essential"],
+	...vue.configs["flat/recommended"],
 	{
 		rules: {
 			"vue/script-indent": [ "error", "tab", {
