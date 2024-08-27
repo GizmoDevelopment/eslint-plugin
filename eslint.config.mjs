@@ -1,8 +1,9 @@
 // Modules
 import globals from "globals";
 
-// Local presets
+// Local rules
 import jsRules from "./rules/javascript.js";
+import tsRules from "./rules/typescript.js";
 
 export default [
 	...jsRules,
@@ -15,5 +16,9 @@ export default [
 				...globals.node
 			}
 		},
+	},
+	{
+		files: [ "**/*.d.ts" ],
+		...tsRules
 	}
 ];
