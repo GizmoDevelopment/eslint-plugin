@@ -1,5 +1,5 @@
 // Plugins
-const stylistic = require("@stylistic/eslint-plugin-ts");
+const stylistic = require("@stylistic/eslint-plugin");
 
 // Rules
 const js = require("@eslint/js");
