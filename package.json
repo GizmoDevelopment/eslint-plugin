@@ -25,10 +25,10 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "eslint": "9.25.0"
+    "eslint": "9.25.1"
   },
   "devDependencies": {
-    "eslint": "^9.25.0",
+    "eslint": "^9.25.1",
     "globals": "^16.0.0"
   },
   "dependencies": {
